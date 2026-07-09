@@ -4,6 +4,7 @@ import { StepRouter } from '../components/StepRouter';
 import { SuccessScreen } from '../components/SuccessScreen';
 import { useFormContext } from '../context/FormContext';
 import uowdLogo from '../assets/uowd-logo.png';
+import bgImage from '../assets/bgimage.png';
 
 export function VisaRenewalForm() {
   const { formData } = useFormContext();

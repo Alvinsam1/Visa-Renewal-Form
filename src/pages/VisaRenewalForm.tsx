@@ -12,7 +12,10 @@ export function VisaRenewalForm() {
   const isSubmitted = formData.status === 'submitted';
 
   return (
-    <div className="min-h-[100dvh] bg-background py-8 px-4 sm:py-12 sm:px-6 lg:px-8 flex flex-col items-center">
+    <div
+  className="min-h-[100dvh] py-8 px-4 sm:py-12 sm:px-6 lg:px-8 flex flex-col items-center bg-cover bg-center bg-no-repeat bg-fixed"
+  style={{ backgroundImage: `url(${bgImage})` }}
+>
       <div className="w-full max-w-2xl">
         {/* Header Logo Area */}
         <div className="flex justify-center mb-8 sm:mb-12">
